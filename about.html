@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+      :root {
+        --bg-clr: white;
+        --txt-clr: black;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-clr: #121212;
+          --txt-clr: white;
+        }
+      }
+      body {
+        color: var(--txt-clr);
+        background-color: var(--bg-clr);
+        padding: 20px 40px;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+          'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+          'Helvetica Neue', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+      quisquam repellendus. Placeat ipsum et ut eius quis nisi molestiae
+      repellendus consequuntur inventore nobis, quibusdam deleniti commodi
+      laborum odio autem? Doloremque.
+    </p>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="contact-me">Contact me</a></li>
+    </ul>
+  </body>
+</html>
