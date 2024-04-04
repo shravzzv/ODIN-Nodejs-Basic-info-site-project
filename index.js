@@ -1,9 +1,12 @@
 const http = require('http')
 const fs = require('fs')
+const url = require('url')
 
 http
   .createServer((req, res) => {
-    const path = req.url === '/' ? './index.html' : `.${req.url}.html`
+    // warning: url.parse is deprecated
+    const pathname = url.parse(req.url, true).pathname
+    const path = '.' + (pathname === '/' ? '/index' : pathname) + '.html'
 
     fs.readFile(path, 'utf-8', (err, data) => {
       if (err) {
