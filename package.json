@@ -1,0 +1,23 @@
+{
+  "name": "odin-nodejs-basic-info-site-project",
+  "version": "1.0.0",
+  "description": "This project is the submitted solution to the project ['Basic Informational Site'](https://www.theodinproject.com/lessons/nodejs-basic-informational-site) from The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "node --watch index",
+    "debug": "node --watch --inspect index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shravzzv/ODIN-Nodejs-Basic-info-site-project.git"
+  },
+  "author": "Sai Shravan <shravzzv@outlook.com>",
+  "bugs": {
+    "url": "https://github.com/shravzzv/ODIN-Nodejs-Basic-info-site-project/issues"
+  },
+  "homepage": "https://github.com/shravzzv/ODIN-Nodejs-Basic-info-site-project#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
